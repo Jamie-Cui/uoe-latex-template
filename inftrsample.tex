@@ -1,21 +1,35 @@
 \documentclass[coverpage]{inftechrep}
 \usepackage{times}  %% This makes the body base font times...
+\usepackage[backend=biber,sorting=ynt]{biblatex}
+\usepackage{graphicx}
+
+\addbibresource{reference.bib}
+
+\setlength\parindent{0pt}
+\setlength{\parskip}{0.5em}
+
 \begin{document}
-\title{Common Witchcraft}
-\author{Chris Mellish, Murray Cole and David Willshaw}
-\reportnumber{25}
-\reportyear{1999}
-\reportmonth{5}
-\keywords{Common, Witchcraft}
-\published{Presented at the WITCH99 Conference, Debrecen, Hungary, May 1999.}
+\title{\Huge{Your Titile}}
+\author{Name}
+
+\reportyear{2018}
+\reportmonth{1}
+\keywords{Key Words}
+
 \institutes{
-  Institute for Communicating and Collaborative Systems \\
-  Institute of Computing Systems Architecture \\
-  Institute for Adaptive and Neural Computation}
+  Your Institution
+}
 \maketitle
 
 \begin{abstract}
-This is the abstract.
+This is the abstract
 \end{abstract}
+
+\section{Introduction}
+
+
+\section*{Acknowledgement}
+
+\printbibliography
 
 \end{document}

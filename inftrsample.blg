@@ -1,0 +1,9 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'inftrsample.blg'
+[57] biber:287> INFO - === Thu Feb 15, 2018, 17:48:54
+[169] Biber.pm:348> INFO - Reading 'inftrsample.bcf'
+[331] Biber.pm:742> INFO - Found 0 citekeys in bib section 0
+[332] Utils.pm:147> WARN - The file 'inftrsample.bcf' does not contain any citations!
+[402] bbl.pm:519> INFO - Writing 'inftrsample.bbl' with encoding 'ascii'
+[405] bbl.pm:615> INFO - Output to inftrsample.bbl
+[405] Biber.pm:109> INFO - WARNINGS: 1
