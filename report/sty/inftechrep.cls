@@ -21,9 +21,9 @@
 \ProvidesClass{inftechrep}[2002/10/11 v1.01 Informatics Technical Report Class]
 
 %% Load the necessary options
-\input{informaticsopt.clo} %% Sets the macros up for particular report type
-\input{infcopyright.clo}   %% Defines the standard copyright notices
-\input{informaticsdef.clo} %% Defines standard informatics wide macros
+\input{sty/informaticsopt.clo} %% Sets the macros up for particular report type
+\input{sty/infcopyright.clo}   %% Defines the standard copyright notices
+\input{sty/informaticsdef.clo} %% Defines standard informatics wide macros
 
 %% Process the options
 \newcommand{\optionerror}[1]
@@ -47,7 +47,7 @@
 \RequirePackage{a4wide}           % use this for margin settings
 \RequirePackage{ifthen}           % used in several macros...
 \RequirePackage{graphics}         % For the University shield
-\RequirePackage{eushield}         % For the actual shield graphic
+\RequirePackage{sty/eushield}         % For the actual shield graphic
 \shieldtype{0}  % Monochrome
 
 %% Commands for title page stuff
